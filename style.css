@@ -229,12 +229,12 @@ ul.deal-card div {
 }
 
 .info-page:nth-child(odd) {
-    background-color: #ECECEC;
+    background: #ECECEC url("images/pattern-1.png") left top repeat;
     color: #484848;
 }
 
 .info-page:nth-child(even) {
-    background-color: #dadada;
+    background: #484848 url("images/pattern-2.png") left top repeat;
     color: #000;
 }
 
