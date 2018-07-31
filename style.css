@@ -3,39 +3,29 @@
 @font-face {
     font-family: 'antoniobold';
     src: url('fonts/antonio-bold-webfont.eot');
-    src: url('fonts/antonio-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/antonio-bold-webfont.woff2') format('woff2'),
-         url('fonts/antonio-bold-webfont.woff') format('woff');
+    src: url('fonts/antonio-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/antonio-bold-webfont.woff2') format('woff2'), url('fonts/antonio-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'antoniolight';
     src: url('fonts/antonio-light-webfont.eot');
-    src: url('fonts/antonio-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/antonio-light-webfont.woff2') format('woff2'),
-         url('fonts/antonio-light-webfont.woff') format('woff');
+    src: url('fonts/antonio-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/antonio-light-webfont.woff2') format('woff2'), url('fonts/antonio-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'antonioregular';
     src: url('fonts/antonio-regular-webfont.eot');
-    src: url('fonts/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/antonio-regular-webfont.woff2') format('woff2'),
-         url('fonts/antonio-regular-webfont.woff') format('woff');
+    src: url('fonts/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/antonio-regular-webfont.woff2') format('woff2'), url('fonts/antonio-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
 /* CUSTOM STYLE */
+
 * {
     padding: 0;
     margin: 0;
@@ -86,20 +76,31 @@ a {
     color: #3997BC;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'antonioregular';
     line-height: 120%;
     margin-bottom: 30px;
 }
 
-/* h1 32px */  
-/* h2 24px */ 
-/* h3 18px */  
-/* h4 16px */  
-/* h5 13px */ 
-/* h6 10px */ 
+/* h1 32px */
+
+/* h2 24px */
+
+/* h3 18px */
+
+/* h4 16px */
+
+/* h5 13px */
+
+/* h6 10px */
 
 /*  */
+
 header {
     background-color: #000;
     height: 50px;
@@ -111,6 +112,7 @@ header {
 }
 
 /*  */
+
 nav a {
     font-weight: 700;
     line-height: 50px;
@@ -143,6 +145,7 @@ header nav {
 }
 
 /*  */
+
 button {
     border: none;
     background-color: #69A41E;
@@ -154,11 +157,13 @@ button {
 }
 
 /*  */
+
 .main-content {
     padding: 44px 0;
 }
 
 /* DEAL CARD */
+
 ul.deal-card {
     list-style: none;
     margin-left: -17px;
@@ -174,15 +179,12 @@ ul.deal-card li {
     text-align: center;
 }
 
-
-
 ul.deal-card div {
     padding: 30px 0 20px 0;
     font-size: 35px;
     font-family: 'antonioregular';
     color: #232323;
 }
-
 
 .welcome-box {
     border: 1px solid #E2E2E2;
@@ -195,23 +197,23 @@ ul.deal-card div {
 
 /* INFO PAGES */
 
-
 .info-nav {
     position: fixed;
     right: 0;
     top: 10%;
-    width: 30px;
+    width: 20px;
     background-color: #000;
 }
 
 .info-nav a {
     padding: 0;
-    line-height: 30px;
+    line-height: 20px;
     display: inline-block;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     text-align: center;
     color: #fff;
+    font-size: 12px;
 }
 
 .info-page {
@@ -222,7 +224,7 @@ ul.deal-card div {
     justify-content: center;
     transition: all ease 0.5s;
     padding: 0 50px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -232,19 +234,27 @@ ul.deal-card div {
 }
 
 .info-page:nth-child(even) {
-    background-color: #484848;
-    color: #ECECEC;
+    background-color: #dadada;
+    color: #000;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.two-column>* {
+    flex: auto
 }
 
 /* FOOTER */
+
 footer {
     background-color: #ECECEC;
     height: 57px;
     line-height: 57px;
     color: #000;
 }
-
-
-
-
-
